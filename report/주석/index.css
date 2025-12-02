@@ -1,0 +1,26 @@
+/*
+@tailwind base;
+  - Tailwind의 'base' 스타일을 주입합니다.
+  - 이 레이어에는 Normalize.css 또는 Reset CSS와 유사한 모든 기본 스타일(예: 브라우저 기본 스타일 재설정, 
+    기본 heading 스타일 정의 등)이 포함됩니다. 
+  - 이를 통해 모든 브라우저에서 일관된 스타일 기반을 마련합니다.
+*/
+@tailwind base;
+
+/*
+@tailwind components;
+  - Tailwind의 'components' 스타일을 주입합니다.
+  - 이 레이어에는 Tailwind에서 제공하거나 사용자가 정의한 모든 컴포넌트 클래스(예: 버튼, 카드, 폼 요소 등)의 
+    스타일이 포함됩니다. 
+  - 예를 들어, `@apply` 지시어를 사용하여 복잡한 유틸리티 클래스 집합을 단일 클래스로 추상화한 경우 여기에 포함됩니다.
+*/
+@tailwind components;
+
+/*
+@tailwind utilities;
+  - Tailwind의 'utilities' 스타일을 주입합니다.
+  - 이 레이어에는 폰트 크기, 색상, 패딩, 마진, Flexbox 속성 등 실제로 디자인을 구축하는 데 사용하는 
+    수많은 유틸리티 클래스(예: `pt-4`, `text-blue-500`, `flex`, `hidden` 등)가 포함됩니다.
+  - 이는 Tailwind CSS의 핵심이자 가장 큰 부분입니다.
+*/
+@tailwind utilities;
